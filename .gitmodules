@@ -7,8 +7,8 @@
 	ignore = dirty
 [submodule "third_party/protobuf"]
 	path = third_party/protobuf
-	url = https://github.com/google/protobuf.git
-	branch = 3.0.x
+	url = https://github.com/skynetcore/protobuf.git
+	branch = embedded_3.7.0
 [submodule "third_party/gflags"]
 	path = third_party/gflags
 	url = https://github.com/gflags/gflags.git
@@ -54,3 +54,5 @@
 [submodule "third_party/upb"]
 	path = third_party/upb
 	url = https://github.com/google/upb.git
+[submodule "thirdparty/protobuf"]
+	url = https://github.com/skynetcore/protobuf.git
