@@ -1,0 +1,10 @@
+diff --git CMakeLists.txt CMakeLists.txt
+index dd028ab..e3f5470 100644
+--- CMakeLists.txt
++++ CMakeLists.txt
+@@ -1,4 +1,4 @@
+-CMAKE_MINIMUM_REQUIRED (VERSION 3.1.0)
++CMAKE_MINIMUM_REQUIRED (VERSION 2.8.7)
+ 
+ INCLUDE (CheckIncludeFiles)
+ INCLUDE (CheckTypeSize)

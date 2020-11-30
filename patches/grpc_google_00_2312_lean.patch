@@ -1,0 +1,39 @@
+diff --git CMakeLists.txt CMakeLists.txt
+index 6c936b1f5d..fa50b34983 100644
+--- CMakeLists.txt
++++ CMakeLists.txt
+@@ -1,25 +1,23 @@
+-# GRPC global cmake file
+-# This currently builds C and C++ code.
+-# This file has been automatically generated from a template file.
+-# Please look at the templates directory instead.
+-# This file can be regenerated from the template by running
+-# tools/buildgen/generate_projects.sh
+-#
+-# Copyright 2015 gRPC authors.
++##
++# Copyright 2019 skynetcore
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+-#     http://www.apache.org/licenses/LICENSE-2.0
++#    http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+-
+-
++#
++#
++# this lean CMakeLists was created for embedded devices
++# by Derric Lyns (derriclyns@gmail.com) and supports cmake > 2.8
++# for all versions of 1.21.x
++##
+ 
+ cmake_minimum_required(VERSION 2.8)
+ 
